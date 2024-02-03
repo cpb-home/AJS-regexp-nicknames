@@ -1,6 +1,8 @@
 // TODO: write your code here
-import sum from './basic';
+import Validator from './classes/Validator';
 
-console.log('worked');
+const login = 'n_A7m@e-a';
+const login2 = 'n_A7me-a';
 
-console.log(sum([1, 2]));
+console.log(Validator.validateUsername(login));
+console.log(Validator.validateUsername(login2));
